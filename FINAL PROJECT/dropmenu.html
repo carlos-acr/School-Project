@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+/*rules for drop menu */
+	
+*	{
+	margin: 0px;
+	padding: 0px;
+}
+
+body	{
+	text-align: center;
+	font-family: "Optima";
+	padding: 10px;
+}
+
+/* rules for nav menu */
+
+
+#dropmenu	{
+	text-align: center;
+}
+	
+ul#navmenu, ul.sub1	{
+	text-align: center;
+	list-style-type: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+	
+ul#navmenu li	{
+	text-align: center;
+	width: 120px;
+	text-align: center;
+	position: relative;
+	float: left;
+	vertical-align: top;
+
+}
+
+ul#navmenu a	{
+	text-align: center;
+	align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 125px;
+	height: 25px;
+	line-height: 22px;
+}
+
+ul#navmenu.sub1 a	{
+	margin-top: 5px;
+}
+
+
+ul#navmenu li:hover > a	{
+	background-color: #3FF;
+}
+
+ul#navmenu ul.sub1	{
+	text-align: center;
+	vertical-align: top;
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+}
+
+ul#navmenu li:hover .sub1	{
+	display: inline-block;
+}
+
+
+-->
+</style>
+</head>
+
+<body>
+
+<ul id="navmenu">
+  <li class="about"><a href="#">ABOUT</a></li>
+  <li><a href="#">MENU</a>
+  	<ul class="sub1">
+  		<li><a href="#">BEVERAGES</a></li>
+        <li><a href="#">APPETIZERS</a></li>
+         <li><a href="#">ENTREES</a></li>
+ 	</ul> 
+  </li>
+  <li><a href="#">EVENTS</a></li>
+  <li><a href="#">RESERVATIONS</a></li>
+  <li><a href="#">VISIT</a></li>
+  <li><a href="#">JOIN OUR TEAM</a></li>
+</ul>
+
+</body>
+</html>
